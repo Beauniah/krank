@@ -9,7 +9,7 @@ public function main() returns error? {
         int randomInt = check random:createIntInRange(1, range);
         if (randomInt % 2 == 0) {
             io:println("Random even number in range:", randomInt);
-            count += 1;
+            count += 2;
         }
 
     }
